@@ -1,11 +1,11 @@
 # Projeto clone Netflix
 ##### 💻 Projeto desenvolvido durante o curso da DIO "Recriando a interface do Netflix".
 ##### 🖥️ Tecnologias utilizadas:
-
 <div style="display: inline_block"><br>
   <img align="center" alt="HTML5" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg">
   <img align="center" alt="CCS3" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg">
   <img align="center" alt="JAVASCRIPT" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg">
+  <img align="center" alt="JQUERY" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-original.svg" />    
 </div>
 
 ##
