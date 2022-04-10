@@ -1,0 +1,119 @@
+/** Declaração de variáveis no css sempre
+*** deve ser no root. */
+:root {
+  --vermelho: #e50914;
+  --preto: #141414;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Elementos base */
+
+body {
+  background: var(--preto);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: lighter;
+  color: white;
+}
+
+header .container {
+  display: flex;
+  /* 'flex-direction: row;' é opcional */
+  flex-direction: row;
+  align-items: center;
+  /* Atributo abençoado que centraliza de
+  forma horizontal os elementos na tela */
+  justify-content: flex-start;
+}
+
+header .logo {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+header nav a {
+  text-decoration: none;
+  color: rgb(230, 230, 230);
+  margin-right: 10px;
+  transition: 0.3s ease all;
+}
+
+header nav a:hover {
+  color: #aaa;
+}
+
+/* Filme principal */
+
+.filme-principal .container {
+  margin-left: 30px;
+  width: 40%;
+}
+
+.filme-principal .container .descricao {
+  text-align: justify;
+  margin-bottom: 30px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bolder;
+  font-size: 100%;
+}
+
+.filme-principal {
+  font-size: 20px;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)),
+    url("/img/sweet\ tooth.jpg");
+  height: 500px;
+  /* Especifica que a imagem de background 
+  deve ocupar toda a área definida */
+  background-size: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  background-repeat: no-repeat;
+}
+
+.botoes {
+  background-color: white;
+  color: black;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s ease all;
+  margin-right: 5px;
+  margin-bottom: 10px;
+}
+
+.botao-info {
+  background-color: rgba(255, 255, 255, 0.5);
+  color: var(--preto);
+}
+
+.botoes:hover {
+  background-color: black;
+  color: white;
+}
+
+.botoes i {
+  margin-right: 2px;
+}
+
+/*  */
+
+.item {
+  width: 95%;
+}
+
+.box-filme {
+  width: 100%;
+  height: 100%;
+}
+
+.series{
+  display: flex;
+}
