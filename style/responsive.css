@@ -11,4 +11,20 @@
   .filme-principal .container {
     width: 60%;
   }
+
+  .filme-principal {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+    background-repeat: no-repeat;
+    height: 50%;
+  }
+}
+
+@media screen and (max-width: 529px) {
+  .botoes {
+    display: none;
+  }
 }

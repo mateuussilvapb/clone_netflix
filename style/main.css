@@ -19,6 +19,7 @@ body {
     "Lucida Sans", Arial, sans-serif;
   font-weight: lighter;
   color: white;
+  background-color: #000000;
 }
 
 header .container {
@@ -114,6 +115,20 @@ header nav a:hover {
   height: 100%;
 }
 
-.series{
+#series{
   display: flex;
+  flex-direction: column;
+}
+
+.carrosel-filmes {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#series{
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: flex-start;
+  background-repeat: no-repeat;
 }
